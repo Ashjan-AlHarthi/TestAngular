@@ -1,0 +1,18 @@
+<body>
+<h1 ng-style="">{{title}}</h1>
+
+<div class="box">
+
+    <h2>Type Value: {{name}}</h2>
+    <!-- (input)="updateValue($event)" -->
+    <br>
+    <input type="text" [(ngModel)]="name" />
+
+    <br>
+    <br>
+
+
+    <button class="btn btn-primary mt-2 mb-2" routerLink="/students"><h6><b>Go to student mark</b></h6></button>
+</div>
+
+</body>
